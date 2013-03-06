@@ -19,6 +19,14 @@ public class Lab3 {
         livingBeings.add(dog1);
         livingBeings.add(dog2);
 
+        /* What challenges does this present? How can you overcome these challenges?
+         * Having to include "if" logic tends to make this a bit more rigid.  In
+         * addition, I had to include a toString to be able to print out details
+         * for the specific object.  The could be overcome by just creating
+         * separate lists for tracking each of the different objects.  Not that 
+         * this was not cool, being able to include different types of objects
+         * within one list (something I did not know you could do).
+         */
         for (int i = 0; i < livingBeings.size(); i++) {
             Object obj = livingBeings.get(i);
             if (obj instanceof Employee) {
